@@ -169,3 +169,167 @@
 
 # students.append('Ram')
 # print(id(students))
+
+# a =[1, 2, 3, 4, 5.0, 6.0,  'I', 'am', 'awesome', True]
+
+# del a[4]
+# del a[0 : 3]
+# print(a)
+# print(a[-1])
+
+# a =[1, 2, 3, 4, 5.0, 6.0,  'I', 'am', 'awesome', True]
+# student_list = ['Umesh', 'Bimal', 'Urusha', 'Tshering', 'Abishkar', 'Aditi', 'Abhishek']
+# add --------> append insert
+
+# a.append('Hello Awesome Class')
+# print(a)
+
+# student_list.append('Ram')
+# # print(student_list)
+
+# student_list.insert(0, 'Barney Stinson')
+# student_list.append('Ted')
+# print(student_list)
+
+# remove pop
+
+# student_list.remove('Abishkar')
+# student_list.remove('Abhishek')
+# print(student_list)
+
+# student_list.pop()
+# print(student_list)
+
+# student_list.pop(1)
+# print(student_list)
+
+
+# a =[1, 2, 3, 4, 5.0, 6.0,  'I', 'am', 'awesome', True]
+# student_list = ['Umesh', 'Bimal', 'Urusha', 'Tshering', 'Abishkar', 'Aditi', 'Abhishek']
+
+# student_list.clear()
+# student_list.reverse()
+# student_list.sort()
+
+# student_list.sort(reverse=True)
+# print(student_list)
+
+
+# a = [1, 2, 3, 4, 5]
+# b = a
+
+# b[0] = 'Bro Code Academy'
+# print(a)
+#
+# b = a.copy()
+# b[0] = 'Bro Code Academy'
+# print(a)
+# print(b)
+
+# a = [1, 2, 3, 4, 5]
+# b = [7, 8, 9, 10]
+
+# print(a + b)
+
+# ---------------------------------- #
+
+# TUPLE
+
+# a = (1, 2, 3, 4, 5, 6, 7, 8)
+# a = ('sun', 'mon', 'tue', 'wed', 'thur', 'fri', 'sat')
+# print(type(a))
+# print(a[0])
+
+# b = tuple()
+# c = ()
+# b = (1, 2, 3)
+# print(a + b)
+
+# a = (10,)
+# print(type(a))
+
+# ------------------------------------#
+
+# SETS
+
+# a = {1, 2, 3, 4, 5, 6, 6, 6, 7, 7, 7, 7, 'Raju', 'Raju', True, True}
+# print(a)
+
+# a = {'raju', 'dhakal', 'aditi', 'sharma', 'tshering', 'adijit', 'Kami'}
+# print(a)
+# a = {1, 2, 3}
+# b = {4, 5, 6}
+
+# print(a.union(b))
+# print(a.intersection(b))
+# print(a.difference(b))
+# print(b.difference(a))
+
+
+# append adds to the last position
+# add adds to the random position
+# a.add('Barney Stinson')
+
+# a.remove('dhakal')
+# a.discard('test')
+
+# a.clear()
+
+# print(a)
+
+# account_type = ('current', 'saving')
+
+# a = list(account_type)
+# a.append('Bro Account')
+# account_type = tuple(a)
+# print(a)
+
+# a = set()
+# print(type(a))
+
+# a = {}
+# print(type(a))
+
+# phone_number = {'Raju': 9846210933, 'Januka': 9814115986, 'Baba': 9862274333}
+# print(phone_number['Raju'])
+# print(phone_number.keys)
+
+# phone_number['Mummy'] = 9846638475
+# print(phone_number)
+
+# name = input('Enter your Name: ')
+# print(name)
+
+# print('You are awesome ' + name)
+
+# age = input('Enter your Age: ')
+
+# print('You are ' + age + ' years old.')
+
+# student_marks = {'umesh': 1, 'bimal': 100, 'simaran': 67, 'abishkar': 51, 'bijay': 0}
+
+# student_name = input('Enter your name: ')
+
+# print('Your marks is ' + str(student_marks[student_name]))
+
+# name = None
+
+# a = None
+# b = None
+# c = None
+# d = None
+
+# print(a is b is c is d)
+
+#--------------------------#
+
+# RANGE
+
+print(list(range(20)))
+print(list(range(10, 20)))
+
+print(list(range(5, 15, 2)))
+
+print(list(range(4, 21, 2)))
+
+print(list(range(3, 20, 2)))
