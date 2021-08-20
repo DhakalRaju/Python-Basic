@@ -325,11 +325,224 @@
 
 # RANGE
 
-print(list(range(20)))
-print(list(range(10, 20)))
+# print(list(range(20)))
+# print(list(range(10, 20)))
 
-print(list(range(5, 15, 2)))
+# print(list(range(5, 15, 2)))
 
-print(list(range(4, 21, 2)))
+# print(list(range(4, 21, 2)))
 
-print(list(range(3, 20, 2)))
+# print(list(range(3, 20, 2)))
+
+# ----------------------------------- #
+# if else statement
+
+# if 10 > 6: 
+#     print('This class is legendary')
+#     print('This statement is True')
+# elif 4 > 5:
+#     print('Why silent guys')
+# else:
+#     print('Hello Guys')
+
+# if 7 > 6:
+#     if 6 > 5:
+#         print('I am nested if')
+#     elif 5 > 6:
+#         print('I am nested elif')
+#     else:
+#         print('I am nested else')
+#     print('Barney')
+# elif 5 > 4:
+#     print('Stinson')
+# else:
+#     print('Sheldon')
+
+# if 7 > 6:
+#     pass
+# elif 5 > 4:
+#     print('Stinson')
+# else:
+#     print('Sheldon')
+
+# if 6 > 6:
+#     print('I am awesome.')
+# else:
+#     print('Bro Code Academy is the best!')
+
+# name = input('Enter your name:')
+# if name.lower() == 'raju':
+#     print(name + ' is awesome.')
+# else:
+#     print('This is not getting interactive')
+# print('I am awesome') if 6 > 6 else print('Bro Code Academy is Awesome!')
+
+# print(name + ' is awesome.') if name.lower() == 'raju' else print('This is not getting interactive')
+
+# a = 5 if 5 > 4 else 6
+# print(a)
+
+# Logical operators
+
+# is_passed = True
+# is_topper = False
+
+# if is_passed and is_topper:
+
+# bought_pyaj = True
+# bought_chicken = False
+
+# if bought_pyaj and bought_chicken:
+#     print('Yaayyy! Masu Bhat khana painey bhayo!')
+# else:
+#     print('Hait Ghiraula ko tarkari chyaa!')
+
+# if bought_pyaj or bought_chicken:
+#     print('Yaayyy! Masu Bhat khana painey bhayo!')
+# else:
+#     print('Hait Ghiraula ko tarkari chyaa!')
+
+# first_num = input('Enter first number:')
+# second_num = input('Enter second number:')
+
+# if int(first_num) > int(second_num):
+#     print(first_num + ' is greater than ' + second_num)
+# elif int(first_num) < int(second_num):
+#     print(second_num + ' is greater than ' + first_num)
+# else:
+#     print(first_num + ' and ' + second_num + ' are equal.')
+    
+# if 10 > 5 and 10 > 6 and 10 > 7 and 10 > 8 and 10 != 10:
+#     print('Welcome to Bro Code Academy!')
+# else:
+#     print('Kya Bore Bhayo!!')
+
+# name = 'Raju Dhakal'
+# if 10 == 10 and name.lower() == 'raju dhakal' and name[0] == 'R':
+#     print('This class is awesome')
+# if name.lower() == 'raju dhakal' and name[0 : 3] == 'Raj' and 10 != 10:
+#     print('This class is jhur')
+
+# else:
+#     print('Babaal cha hai ta!')
+
+#---------------------------------#
+
+# MODULO OPERATOR
+# is used to get remainder
+
+# print(3 % 2)
+# print(4 % 2)
+# print(5 % 2)
+# print(7 % 2)
+
+# num = int(input('Enter a number: '))
+# if num % 2 == 0:
+#     print('Even Number')
+# elif num % 2 != 0:
+#     print('Odd Number')
+
+# ------------------------ #
+# LOOPING: While and For
+
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+# print('Hello World')
+
+# i = 0
+# while i < 5:
+#     print('Hello World!')
+#     i = i + 2
+
+# name_marks = {'umesh': 5, 'abiskar': 55, 'bishal': 99, 'ajit': 25, 'simran': 60}
+
+# while True:
+#     name = input('Enter your name: ')
+#     # print('Your marks is ' + str(name_marks[name]))
+#     marks = name_marks[name]
+
+#     if marks > 60 and marks < 80:
+#         print('You passed in First Division')
+#     elif marks > 80 and marks < 90:
+#         print('You passed with Distinction')
+#     elif marks >= 90:
+#         print('Yaay! PARTY 🎉')
+#     else:
+#         print('Dhobi chutai and Flying Chappal! 😭')
+
+# -------------------------------- #
+
+# FOR Loop
+
+# string # list # tuple # set # dict --> iterables
+
+# name = 'raju'
+
+# for char in name:
+#     print(char)
+
+# name = 'Bro Code'
+
+# for a in name:
+#     print(a, end=',')
+
+# students = ['rama', 'ram', 'shyam', 'ghanashyam', 'barney']
+
+# for item in students:
+#     # print(item)
+#     print(item, end=',')
+
+# name_marks = {'umesh': 100, 'ram': 20, 'shyam': 25, 'sita': 21, 'hari': 51}
+
+# for key, value in name_marks.items():
+#     print(key, value)
+
+# for item in range (20):
+#     print(item, end= ' ')
+
+# even = []
+# odd = []
+
+# for num in range(2, 51):
+#     if num % 2 == 0:
+#         even.append(num)
+#     else:
+#         odd.append(num)
+# print(even)
+# print(odd)
+
+# ------------------------- #
+
+# BREAK / CONTINUE
+
+# for name in ['umesh', 'barney', 'ted', 'lily', 'marshal']:
+#     if name == 'shankar':
+#         print('Lilly is present!')
+#         break
+# else:
+#     print('Shankar is not present!')
+
+# for name in ['umesh', 'barney', 'ted', 'lily', 'marshal']:
+#     if name == 'lily':
+#         print('Lilly is present!')
+#         continue
+#     else:
+#         print(name)
+
+name = 'Raju'
+greeting = 'Good Morning'
+salutations = 'Mr.'
+age = 27
+address = 'Pokhara'
+
+#print(greeting + ' ' + salutations + ' ' + name + '. Your age is ' + str(age))
+
+print(f'{greeting} {salutations} {name}. Your age is {age} ')
