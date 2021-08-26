@@ -537,12 +537,146 @@
 #     else:
 #         print(name)
 
-name = 'Raju'
-greeting = 'Good Morning'
-salutations = 'Mr.'
-age = 27
-address = 'Pokhara'
+# name = 'Raju'
+# greeting = 'Good Morning'
+# salutations = 'Mr.'
+# age = 27
+# address = 'Pokhara'
 
-#print(greeting + ' ' + salutations + ' ' + name + '. Your age is ' + str(age))
+# #print(greeting + ' ' + salutations + ' ' + name + '. Your age is ' + str(age))
 
-print(f'{greeting} {salutations} {name}. Your age is {age} ')
+# print(f'{greeting} {salutations} {name}. Your age is {age} ')
+
+# FUNCTIONS and its need
+
+# a = input('Enter the First Number')
+# b = input('Enter the second Number')
+
+# def add():
+#     print('This function adds number.')
+#     print('This function is awesome.')
+
+# add()
+
+
+# def add(i, j):
+#     print(i, j)
+#     print(j)
+#     print(i + j)
+
+
+# add(5, 6)
+# add(2, 1)
+# add(4, 6)
+
+# def add(i, j, k):
+#     avg = (i + j + k) / 3
+
+#     if avg > 20000:
+#         print('I am rich😎')
+#     else:
+#         print('I am poor😔')
+
+# add(20000, 24000, 15000)
+
+# def avg_salary(i, j, k):
+#     avg = (i + j + k) / 3
+#     return avg
+
+# salary = avg_salary(20000, 24000, 15000)
+
+# print(salary)
+
+# if salary > 20000:
+#     print('I am Rich!')
+# else:
+#     print('Hello Salary!')
+
+# def avg_salary(i, j, k):
+#     print(i)
+#     print(j)
+#     print(k)
+
+# salary = avg_salary(24000, 15000, 20000)
+
+# def avg_salary(i, j, k):
+#     print(i)
+#     print(j)
+#     print(k)
+
+# salary = avg_salary(i = 15000, j = 24000, k = 20000)
+
+# Default Arguments
+
+# def avg_salary(i, j, k = 0):
+#     print(i)
+#     print(j)
+#     print(k)
+
+# salary = avg_salary(i = 15000, j = 24000)
+
+# Variable Length Arguments
+
+# def add(*args):
+#     # print(args)
+#     sum = 0
+#     for item in args:
+#         sum = sum + item
+    
+#     return sum
+
+# total_sum = add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+# print(total_sum)
+
+# To pass keyword arguments put **
+
+# def add(**kwargs):
+#     print(kwargs)
+# add(name = 'Raju', last_name = 'Dhakal', age = 27)
+
+
+# def add(**kwargs):
+#     print(kwargs)
+
+#     for K, V in kwargs.items():
+#         print(K)
+
+# add(name = 'Raju', last_name = 'Dhakal', age = 27)
+
+# Write a function that returns the average of a list
+
+# def average_salary(*args):
+#     sum = 0
+#     for i in args:
+#         sum = sum + i
+#     return sum / len(args)
+
+# salary = average_salary(10000, 5000, 10000, 250000)
+# print(salary)
+
+# a = 10
+# def average():
+#     a = 12
+
+# average()
+
+# print(a)
+
+# a = 2500
+# def raise_salary():
+#     global a
+#     a = 5000
+
+# raise_salary()
+# print(a)
+
+import my_module as mod
+
+# print(mod.interest_rate)
+# print(mod.new_interest_rate)
+
+# PIP ----> python install program
+
+# command line tool
+# package manager
+
