@@ -670,7 +670,7 @@
 # raise_salary()
 # print(a)
 
-import my_module as mod
+# import my_module as mod
 
 # print(mod.interest_rate)
 # print(mod.new_interest_rate)
@@ -680,3 +680,94 @@ import my_module as mod
 # command line tool
 # package manager
 
+# ERROR HANDLING
+
+# if  6 > 5:
+#     print('6 is greater than 5')
+
+# # RUNTIME ERROR
+
+# num1 = int(input('Enter first number: '))
+# num2 = int(input('Enter second number: '))
+# print(f'{num1} divided by {num2} is {num1 / num2}')
+
+
+# try: 
+#     # risky code that can throw error 
+#     num1 = int(input('Enter first number: '))
+#     num2 = int(input('Enter second number: '))
+#     print(f'{num1} divided by {num2} is {num1 / num2}')
+# except:
+#     print('Please try again later...')
+# while True:
+
+#     try: 
+#         # risky code that can throw error 
+#         num1 = int(input('Enter first number: '))
+#         num2 = int(input('Enter second number: '))
+#         print(f'{num1} divided by {num2} is {num1 / num2}')
+#     except:
+#         # code that runs when we get any error
+#         print('Please try again later...')
+#     else:
+#         # code that runs when we do not get any error
+#         print('There is no error in our code.')
+#     finally:
+#         # code that runs no matter error or not
+#         print('Thank you for using our atm machine')
+#         print('Have a great day')
+
+# FILE HANDLING
+
+# open('name of file', 'mode of file')
+
+# f = open('text.txt', 'r')
+# print(f.read())
+
+# reads the specified characters
+# print(f.read(10))
+
+# read line by line 
+# print(f.readline())
+# print(f.readline())
+
+# print('Hello \nworld')
+
+# Read Line
+# print(f.readlines())
+
+# data = 'Take care Simran, Sancho bhayepachi MOMO khanu parcha'
+
+# f = open('text.txt', 'w')
+# f.write(data)
+
+# APPEND
+# data = '\n Hamro gaunle jeewan \n Hami bhanda dherai tadha'
+# data1 = '\n Hami sath basi hasi khelni'
+# data2 = '\n hami bhanda dherai tadha'
+# f = open('text.txt', 'a')
+# f.write(data2)
+
+# # FILE CLOSE
+# print(f.closed)
+
+# f.close()
+# print(f.closed)
+
+# with open('text.txt', 'a') as f:
+#     print(f.closed)
+#     pass
+# print(f.closed)
+
+# try:
+#     with open('text.txt', 'r') as f:
+#     print(f.read)
+
+# except:
+#     print('File does not exists. Please check the file name..')
+
+# else:
+#     f.close()
+
+# finally:
+#     print('Thank you!')
