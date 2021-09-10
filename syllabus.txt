@@ -1,0 +1,285 @@
+Programs/Apps/Software
+Programming Language
+Machine level/Low Level/binary and High Level Language
+Compiler
+Introduction to python ----> General Puporpose High Level Programming Language
+Usage of python
+Why Python
+Install Python (Add to path)
+Check version of python installed
+Install VS code/ pycharm
+Python execution process
+Variables and how to name them
+Naming convention
+Importance of data types
+Data types in Python (int, float, string, boolean, list, tuple, set, dict)
+Get variable type
+
+Multiple variable assignment
+id
+constants
+int float
+Aritrhematic oprations
+Boolean data type
+Comments
+Reserved words
+Internal Implementation of Boolean data type
+
+Comparison operators (==, !=, >, <, >=, <=)
+not keyword in boolean
+
+String data type
+usage Single quote double quotes and triple quotes
+string concatenation
+Length of string and usage
+in/not in string
+upper() lower() strip() replace() capitalize()
+* in string
+
+Indexing in string
+Slice and use slice to convert to Capitalize
+Immutability (int float str bool)
+is keyword
+Type casting/conversion int() float() str() bool()
+
+List and its need
+empty list
+Indexing
+change value using index
+Length of list
+properties(Heterogenoeus, mutable, ordered)
+
+in keyword
+del (to delete index del l[0] and to delete the list)
+Add methods:  append, insert,
+Remove methods: remove, pop
+clear in python 3
+Reverse
+sort
+Copy list
+Add two list
+
+Tuple ()
+Usage of tuple
+properties(Immutable, heterogenous, ordered)
+Tuple with one element
+When to use tuple vs lists
+len()
+Indexing
+Add item/remove item
+Join tuple
+del tuple
+
+Sets
+No indexing.  Elements Cannot be changed
+Distinct elements example
+Empty set
+add()
+add() vs append()
+remove() vs discard()
+clear()
+del
+Union intersection difference
+
+
+Type conversion List, Tuple, Set
+Questions: How can you add a value to tuple?
+           How can you remove a value from tuple?
+           How can you make a list immutable?
+           Access 20 from ("Orange", [10, 20, 30], (5, 15, 25))
+
+Dicts
+Create dictionarys
+create empty dictionary
+Access and change item using key
+Unique keys
+keys(), values(), items()
+Dict within dict
+Add key, value
+Delete key
+len()
+clear()
+
+input()
+
+Example of student marks
+None
+range()
+Excercise: use range to print odd/even value
+
+If/elif/else: use of if else in daily life
+difference between using elif and if
+short-hand operator
+nested if
+and/ or using truth table
+pass
+comparison operators in if/else
+Excercise: Input two numbers and print the smallest number
+
+Modulo operator(used to get the remainder)
+Excercise input a number and check if the number is odd or even.
+
+loop and its need (used to repeat code until condition is met.)
+while loop
+excercise: use dict student name and seat_number and input name and print assigned seat.
+
+For loop
+for loop in string, list,tuple,set,dict
+for loop in range
+Excercise: use range and for loop to add even no in one list and odd numbers in one list
+
+break/continue
+
+format{}
+
+Functions and its need
+calling functions before its declaration
+arguments: information passed in to a function is called arguments.
+return statement
+pass
+arguments types: positional, default, keyword, variable length
+*args, **kwagrs
+excercise: Write a method that checks if a number is odd/even
+                 Write a method that checks the mean of the list
+                  Write a method that prints the phone number of a given name in a dict
+
+local and global variable
+
+Module and its importance
+import modules
+alias
+create a custom .py module and import it
+Package
+PIP
+How to install/uninstall package
+where does pip installs package from
+
+os module: getcwd(), mkdirs(), rename(), removedirs(), lisdir()
+
+webbrowser(open google, youtube, google maps), pywhatkit, https://pyshorteners.readthedocs.io/en/latest/
+
+
+Error/faults in Programming
+    When error occurs, the program terminates unexpectedly. Exception handling prevents unwanted termination of programs.
+exception handling try except else finally
+
+file handling
+why we need file and why we save data in files
+modes: r,w,a
+open a file,
+read a file: read(), read(n), readline(), readlines()
+write a file: write(str), writelines([])
+append a files
+closing a file
+with keyword
+
+try catch else finally
+
+Git and github
+What is git and github
+workflow
+install gits
+git config --global user.name ''
+git config --global user.email ''
+
+status, add, commit, branch, checkout, pull, push, stash, git stash pop git clone
+
+
+webscraping
+What is web scrapings
+what is web scraping used for
+copy jobs from broadway.com/careers vs scraping the site
+
+
+how http request work (client server)
+
+web scraping vs api
+request library and beautiful soup library
+
+check the network tabs
+view source of website
+how to inspect website
+
+use the request library to get https://restcountries.eu/ json
+print status_code
+use the request library to get https://news.ycombinator.com/
+get the content which is in string format
+how to parse that into HTML
+install beautiful soup
+prettify(), soup.title, soup.title.text soup.body, find(), find(id="id_value"), find_all(), select_one(), select('.class'),
+get('href')
+
+pandas
+what is pandas
+series
+empty series
+create series from list, tuple, ndarray, dictionary
+index in series
+access/modify series elements
+slice series elements
+data frames
+empty df
+create df from list, dict
+index and columns in df
+axis in df
+df.sum(axis = 0/1)
+mean(), median, mode(), sum(), std(), min(), max()
+read csv using df
+dropna()/dropna(inplace=True)
+df['column']
+mean(), median(), std() using df['column']
+df.duplicated()
+df.drop_duplicates(inplace = True)
+head tail
+
+matplotlib
+plot(), show()
+linestyle, color
+xlabel(), ylabel(), title()
+bar() pie()
+
+*********************************************************************************************
+
+What are classes and objects
+example mould and brick.
+doc string in a class
+print(class.__doc__)
+How to create a class and objects
+reference variable
+__init__()
+self.
+can we use any vairable_name other than self?
+acess properties/methods outside of the class
+Types of variables: a) instance variable (object level)  b) static variable (class level)   c) local variable
+Create a school class with static and instance variables.
+Instance Variable/non-static --> changes from object to object. Object level variable. copy of instance variables is created for every object. Uses self to refer
+Static variables ---> only one copy of static variables is created. do not changes from object to object. uses cls or class_name to refer
+Local variables  ----> declared inside a function. Is local only to that particular function.
+
+how to access static and instance variables both inside and outside of the class.
+
+method
+Types of methods:
+Instance --> has only instance variables. depends on the object. self is the first parameter.
+class method ----> has only class variables. depends on the class not on the object. cls is the first parameter
+static method ------> has neither class nor object variabes. utility functions. eg sum(a,b), print_holidays_list()
+
+Private ---> available inside class only. __name
+protected ---> available inside parent class and child class.
+public variables ---> available both inside and outside class.
+
+getter/setters
+
+Inheritance ----> full time employee vs part time employee
+super()
+
+Polymosphism
+operator overloading
+method overloading using inheritance
+
+Encapsulation ----> process of binding/grouping/wrapping properties and behaviors of a class in a single unit.
+                    going on a tour you pack necessary things in a bag to prevent other people from using it and to make it easier to find when needed.
+                    makes program simple and eary to debug, reusable code
+Abstraction --> way of showing only the essential information and hiding unnecessary information.
+                reduces complexity. makes code secured as the user cannot see the
+                implementation details.
